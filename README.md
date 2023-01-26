@@ -1,3 +1,3 @@
 # Cinema-Booking-App-UI-Compose
 
-## 🚧🚧🚧 Work in Progress 🚧🚧🚧🚧
+## <p align="center">  🚧🚧🚧 Work in Progress 🚧🚧🚧🚧  </p>
