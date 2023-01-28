@@ -12,6 +12,7 @@ val DarkBlack = Color(0XFF151520)
 val LightBlack =  Color(0XFF262630)
 val LightGray = Color(0XFF2B2B38)
 val DarkRed = Color(0XFFF74346)
+val GrayColor = Color(0XFF4A4B56)
 
 val GradientBackground = Brush.verticalGradient(
     listOf(
