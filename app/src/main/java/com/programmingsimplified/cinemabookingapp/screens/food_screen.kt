@@ -79,7 +79,8 @@ fun ShowFood(
             .fillMaxWidth()
             .padding(
                 top = 15.dp, end = 30.dp, start = 30.dp
-            ).clip(RoundedCornerShape(13.dp))
+            )
+            .clip(RoundedCornerShape(13.dp))
             .background(LightGray)
     ) {
         Row(
@@ -104,7 +105,9 @@ fun ShowFood(
                     )
                 )
                 SpacerHeight()
-                Row {
+                Row(
+                    horizontalArrangement = Arrangement.SpaceBetween
+                ) {
                     Text(
                         text = food.price, style = TextStyle(
                             fontSize = 23.sp,
@@ -113,7 +116,7 @@ fun ShowFood(
                             fontFamily = InterFont
                         )
                     )
-                    SpacerWidth()
+                    SpacerWidth(20.dp)
                     TextButton(
                         onClick = { },
                         shape = RoundedCornerShape(4.dp),
@@ -122,10 +125,17 @@ fun ShowFood(
                         ),
                         elevation = ButtonDefaults.elevation(0.dp),
                         modifier = Modifier
-                            .size(26.dp)
+                            .size(31.dp)
                             .align(CenterVertically)
                     ) {
-                        Icon(Icons.Default.Add, contentDescription = "", tint = Color.Black)
+                        Icon(
+                            Icons.Default.Add,
+                            contentDescription = "",
+                            tint = Color.Black,
+                            modifier = Modifier.size(
+                                20.dp
+                            )
+                        )
                     }
                 }
             }

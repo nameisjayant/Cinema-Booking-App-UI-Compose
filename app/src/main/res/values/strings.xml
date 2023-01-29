@@ -3,4 +3,13 @@
     <string name="FOOD">Food</string>
     <string name="search">Search</string>
     <string name="menu">Menu</string>
+    <string name="profile">Profile</string>
+    <string name="hi">Hi! User</string>
+    <string name="welcome">Welcome</string>
+    <string name="my_ticket">My tickets</string>
+    <string name="my_credit_card">My credit cards</string>
+    <string name="history">History</string>
+    <string name="change_city">Changes city</string>
+    <string name="about_us">About us</string>
+    <string name="logout">Logout</string>
 </resources>
