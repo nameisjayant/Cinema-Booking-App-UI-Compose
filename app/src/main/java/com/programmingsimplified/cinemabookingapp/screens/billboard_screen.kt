@@ -52,7 +52,7 @@ fun BillBoardScreen() {
 
     Box(
         modifier = Modifier.padding(bottom = 60.dp)
-    ){
+    ) {
         Box(
             modifier = Modifier
                 .fillMaxSize()
